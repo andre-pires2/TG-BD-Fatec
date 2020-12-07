@@ -28,9 +28,42 @@ Com estas tags, um sistema de “match” ocorrerá ligando vagas de emprego ond
 
 ## 2. FUNDAMENTAÇÃO TÉCNICA 
 
- 
+Grande parte do projeto está relacionado com a ciência de dados junto com o uso de tags para as recomendações e o sistema de “match” que a plataforma irá fazer. Além disso, também inclui uma boa usabilidade e não menos importante a segurança da informação dos usuários cadastrados na plataforma.
+
+### 2.1. Ciência de Dados e uso de tags para recomendações 
+
+Um estudo conduzido em 2010 por Guy, Zwerdling, Ronen, Carmel e Uziel[2] demonstrou que o uso de tags pode ser muito eficiente para formulação de recomendações, pois estas se traduzem em melhores filtros para tópicos de interesse. 
+
+### 2.2. Usabilidade  
+
+Visto que devido a situação das jovens ligadas ao projeto, elas provavelmente não teriam um contato muito grande com as tecnologias atuais, portanto a plataforma teria um foco
+bem grande na usabilidade para que nada dificulte a aprendizagem das jovem ao usar a plataforma.
+
+### 2.3. Segurança da informação 
+
+Considerando o volume e a sensibilidade dos dados que serão transitarão pela plataforma, normas de segurança de dados deverão ser aplicadas para garantir o cumprimento da legislação vigente.
+
 ## 3. DESENVOLVIMENTO
 
+A aplicação será construída no formato Progressive Web App (PWA), e utilizará arquitetura REST combinada a um framework frontend que garanta alta usabilidade. 
+
+### 3.1. Progressive Web App (PWA) 
+
+Progressive Web App (PWA) é uma metodologia de desenvolvimento de software que combina recursos de navegadores com os benefícios de aplicações para dispositivos móveis. 
+
+Desta forma, buscamos garantir que a plataforma possa ser acessada com a devida fluidez por qualquer dispositivo, sem necessidade de instalação de aplicativo específico. 
+
+### 3.2. Arquitetura REST 
+
+Conforme mencionado por Thiago Berlitz Rondon, REST (Representational State Transfer ou Transferência de Estado Representacional) é estilo de arquitetura de software sobre um sistema operado em rede, que vê cada aplicação web como um conjunto de recursos, que representam um estado particular de um aplicativo. Quando você acessa este recurso, Rondon continua, você está transferindo o estado (conteúdo), e talvez alterando o seu estado [3]. 
+
+A aplicação será baseada nesta modalidade de arquitetura, que será consumida pelo servidor de frontend. 
+
+### 3.3 DevOps
+
+O projeto contará com a implementação de um sistema DevOps. Esse sistema ajuda a agilizar e facilitar os processos necessários para a implantação de um sistema para o ambiente de produção para que o valor ao usuário seja gerado.
+
+A adoção das praticas DevOps apresentam um alto desempenho, fazendo com que a criação do produto seja melhor e mais rapido.
 
 ## REFERÊNCIAS  
 
